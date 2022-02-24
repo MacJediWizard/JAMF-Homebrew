@@ -1,7 +1,7 @@
 # JAMF-Homebrew
 
 ## Install-Homebrew-with-JAMF.sh
-	This script will install homebrew from a policy in JAMF. It will install
+	This script will install Homebrew from a policy in JAMF. It will install
 	Xcode Command Line Tools if needed as well. The script has logging built in
 	that uses the parameters from JAMF.
 	
@@ -18,12 +18,12 @@
 
 	This script creates the folder Homebrew in one of the two paths below.
 	
-		M1/arm64 installs into /opt/homebrew
-		Intel installs into /usr/local
+		M1/arm64 installs into: /opt/homebrew
+		   Intel installs into: /usr/local
 		
 
 # Get-Current-Version-of-Homebrew-Extention-Attribute.sh
-	This script will produce a Jamf extension attribute to record brew version.
+	This script will create a Jamf extension attribute to record Homebrew version.
 	It uses the same method to detect device type and looks where the script installs.
 	
-	*If brew is installed in different locations this will not detect it!*
+	*If Homebrew is installed in different locations this will not detect it!*
