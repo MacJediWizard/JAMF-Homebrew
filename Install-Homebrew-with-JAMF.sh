@@ -4,7 +4,6 @@
 # General Information
 ##########################################################################################
 #
-#
 #	Script created By William Grzybowski February 24, 2022
 #
 #   This script was created to customize the install of Homebrew from a policy in
