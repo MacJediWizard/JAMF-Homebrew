@@ -6,11 +6,11 @@
 	that uses the parameters from JAMF.
 	
 	
-	###	Jamf Variable Label Names
-	
-		Parameter 4 -eq Your log file path. (Recommended "/Library/Logs/<Company Name>")
-		Parameter 5 -eq Your log file name. (Recommended "<scriptName>.log")
-		Parameter 6 -eq Your Company Name for the Log
+###	Jamf Variable Label Names
+
+	Parameter 4 -eq Your log file path. (Recommended "/Library/Logs/<Company Name>")
+	Parameter 5 -eq Your log file name. (Recommended "<scriptName>.log")
+	Parameter 6 -eq Your Company Name for the Log
 	
 	
 
@@ -23,6 +23,7 @@
 		
 
 # Get-Current-Version-of-Homebrew-Extention-Attribute.sh
-This script will produce a Jamf extension attribute to record brew version.
+	This script will produce a Jamf extension attribute to record brew version.
 	It uses the same method to detect device type and looks where the script installs.
+	
 	*If brew is installed in different locations this will not detect it!*
