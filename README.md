@@ -12,8 +12,10 @@
 	Parameter 5 -eq Your log file name. (Recommended "<scriptName>.log")
 	Parameter 6 -eq Your Company Name for the Log
 	
+	You can also test the script from the command line by sending some empty variables.
+	(e.x. empty1 empty2 empty3 "/Library/Logs/<Company Name>" "<scriptName>.log" "<Company Name>"
 	
-
+	
 ### Paths for machine type
 
 	This script creates the folder Homebrew in one of the two paths below.
@@ -21,6 +23,7 @@
 		M1/arm64 installs into: /opt/homebrew
 		   Intel installs into: /usr/local
 		
+
 
 # Get-Current-Version-of-Homebrew-Extention-Attribute.sh
 	This script will create a Jamf extension attribute to record Homebrew version.
