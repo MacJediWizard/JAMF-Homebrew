@@ -1,6 +1,6 @@
 # JAMF-Homebrew
 
-## Install-Homebrew-with-JAMF.sh
+### Install-Homebrew-with-JAMF.sh
 	This script will install Homebrew from a policy in JAMF. It will install
 	Xcode Command Line Tools if needed as well. The script has logging built in
 	that uses the parameters from JAMF.
@@ -14,7 +14,7 @@
 	
 	
 
-## Paths for machine type
+### Paths for machine type
 
 	This script creates the folder Homebrew in one of the two paths below.
 	
