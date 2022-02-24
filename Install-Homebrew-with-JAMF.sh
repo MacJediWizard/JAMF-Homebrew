@@ -263,6 +263,8 @@ function readCommandOutputToLog(){
     # Log install is complete
     echo "The Homebrew installation in now complete."
     
+    
     exit 0
+    
     
 ) 2>&1 | readCommandOutputToLog # To Capture output into Date and Time log file
