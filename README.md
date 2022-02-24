@@ -13,7 +13,7 @@
 	Parameter 6 -eq Your Company Name for the Log
 	
 	You can also test the script from the command line by sending some empty variables.
-	(e.x. empty1 empty2 empty3 "/Library/Logs/<Company Name>" "<scriptName>.log" "<Company Name>"
+	(e.x. Install-Homebrew-with-JAMF.sh empty1 empty2 empty3 "/Library/Logs/<Company Name>" "<scriptName>.log" "<Company Name>"
 	
 	
 ### Paths for machine type
